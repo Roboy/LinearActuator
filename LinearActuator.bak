@@ -1,0 +1,70 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 5CFEDE79
+P 4300 4000
+F 0 "J?" H 4328 3976 50  0000 L CNN
+F 1 "Conn_01x08_Female" H 4328 3885 50  0000 L CNN
+F 2 "" H 4300 4000 50  0001 C CNN
+F 3 "~" H 4300 4000 50  0001 C CNN
+	1    4300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 5CFEE726
+P 5350 4100
+F 0 "J?" H 5242 3475 50  0000 C CNN
+F 1 "Conn_01x08_Female" H 5242 3566 50  0000 C CNN
+F 2 "" H 5350 4100 50  0001 C CNN
+F 3 "~" H 5350 4100 50  0001 C CNN
+	1    5350 4100
+	-1   0    0    1   
+$EndComp
+Text GLabel 4100 3700 0    50   Input ~ 0
+ENA
+Text GLabel 4100 3800 0    50   Input ~ 0
+MS1
+Text GLabel 4100 3900 0    50   Input ~ 0
+MS2
+Text GLabel 4100 4000 0    50   Input ~ 0
+MS3
+Text GLabel 4100 4100 0    50   Input ~ 0
+RESET
+Text GLabel 4100 4200 0    50   Input ~ 0
+SLEEP
+Text GLabel 4100 4300 0    50   Input ~ 0
+STEP
+Text GLabel 4100 4400 0    50   Input ~ 0
+DIR
+Text GLabel 5550 3700 2    50   Input ~ 0
+VMOT
+Text GLabel 5550 3800 2    50   Input ~ 0
+GND
+Text GLabel 5550 3900 2    50   Input ~ 0
+2B
+Text GLabel 5550 4000 2    50   Input ~ 0
+2A
+Text GLabel 5550 4100 2    50   Input ~ 0
+1A
+Text GLabel 5550 4200 2    50   Input ~ 0
+1B
+Text GLabel 5550 4300 2    50   Input ~ 0
+VDD
+Text GLabel 5550 4400 2    50   Input ~ 0
+GND
+$EndSCHEMATC
